@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 46e3393193bcb614ca42f66619c56863
+timeCreated: 1493982068
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 91529
+  packageName: Mobile VR Inventory System
+  packageVersion: 0.2
+  assetPath: Assets/Nurface/DemoAssets/Models/Materials/Silver2.mat
+  uploadId: 186835

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1bc13cc51f621f74eb0fecbfc57cb9d9
+timeCreated: 1496075930
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 91529
+  packageName: Mobile VR Inventory System
+  packageVersion: 0.2
+  assetPath: Assets/Nurface/VRInventory/Prefabs/PlayerPrefab.prefab
+  uploadId: 186835

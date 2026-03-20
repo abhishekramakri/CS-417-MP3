@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9d31b8ef2d4114c429fa52a7e6f75029
+timeCreated: 1493952998
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 91529
+  packageName: Mobile VR Inventory System
+  packageVersion: 0.2
+  assetPath: Assets/Nurface/DemoAssets/Animations/Door.controller
+  uploadId: 186835

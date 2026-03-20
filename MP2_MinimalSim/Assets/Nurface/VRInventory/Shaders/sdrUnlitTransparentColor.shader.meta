@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f26043e03dcb0e3489adebe489672187
+timeCreated: 1491993303
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 91529
+  packageName: Mobile VR Inventory System
+  packageVersion: 0.2
+  assetPath: Assets/Nurface/VRInventory/Shaders/sdrUnlitTransparentColor.shader
+  uploadId: 186835

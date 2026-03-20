@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cfe481bb0201c3a42bb693e07373ee98
+timeCreated: 1493982068
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 91529
+  packageName: Mobile VR Inventory System
+  packageVersion: 0.2
+  assetPath: Assets/Nurface/DemoAssets/Models/Materials/Red.mat
+  uploadId: 186835

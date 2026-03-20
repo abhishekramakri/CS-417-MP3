@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dbb8d79f0851828498de8755214a173e
+timeCreated: 1496075408
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 91529
+  packageName: Mobile VR Inventory System
+  packageVersion: 0.2
+  assetPath: Assets/Nurface/VRInventory/Prefabs/GazePointerDot.prefab
+  uploadId: 186835

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8000eb91eaf60ca4aa4ff60f05fd024e
+timeCreated: 1496074966
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 91529
+  packageName: Mobile VR Inventory System
+  packageVersion: 0.2
+  assetPath: Assets/Nurface/VRInventory/Shaders/sdrReticleRingInventory.shader
+  uploadId: 186835

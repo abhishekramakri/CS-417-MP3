@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 2ca94210e2c42b8458044619ef4e9b09
+timeCreated: 1492001400
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 91529
+  packageName: Mobile VR Inventory System
+  packageVersion: 0.2
+  assetPath: Assets/Nurface/VRInventory/Scripts/Editor/VRInventoryEditor.cs
+  uploadId: 186835

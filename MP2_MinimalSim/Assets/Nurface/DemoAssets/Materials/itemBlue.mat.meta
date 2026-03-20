@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e2f459dbc9a79b64b944a7a62d8c9c96
+timeCreated: 1479154542
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 91529
+  packageName: Mobile VR Inventory System
+  packageVersion: 0.2
+  assetPath: Assets/Nurface/DemoAssets/Materials/itemBlue.mat
+  uploadId: 186835

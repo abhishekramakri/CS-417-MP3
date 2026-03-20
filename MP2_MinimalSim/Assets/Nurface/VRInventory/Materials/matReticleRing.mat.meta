@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1cef144ac6d6faf409cbc87f3e0c3a5f
+timeCreated: 1491993203
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 91529
+  packageName: Mobile VR Inventory System
+  packageVersion: 0.2
+  assetPath: Assets/Nurface/VRInventory/Materials/matReticleRing.mat
+  uploadId: 186835

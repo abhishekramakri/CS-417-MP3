@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2f97daf25088c14f92532f62907412b, type: 3}
+  m_Name: ExampleItemDatabase
+  m_EditorClassIdentifier: 
+  items:
+  - name: Coin
+    image: {fileID: 21300000, guid: 858c84fb1850e254591058c22a75d5d3, type: 3}
+    stackSize: -1
+    maxNumberOfStacks: 1
+    pinItemInInventory: 1
+    equippable: 0
+    itemPrefab: {fileID: 0}
+    maxPickupDistance: 2
+    pickupSound: {fileID: 8300000, guid: bb000282553ef454bba8e4380b8ee7b3, type: 3}
+    pickupMultipleSound: {fileID: 8300000, guid: 7e279ad6677edd24489b06cb4787cc7a, type: 3}
+    useSound: {fileID: 0}
+  - name: Health Potion
+    image: {fileID: 21300000, guid: 678d5b3c6ef9f3d4480d0468a8956e17, type: 3}
+    stackSize: 5
+    maxNumberOfStacks: 2
+    pinItemInInventory: 0
+    equippable: 0
+    itemPrefab: {fileID: 0}
+    maxPickupDistance: 2.5
+    pickupSound: {fileID: 8300000, guid: 2a590a670334cd64dbe299e5f0c1d0ef, type: 3}
+    pickupMultipleSound: {fileID: 0}
+    useSound: {fileID: 8300000, guid: aad2464c261e4144c919a133dcfcbad3, type: 3}
+  - name: Mana Potion
+    image: {fileID: 21300000, guid: 7b9de05da0fa7c1429fcc8e34233ccd1, type: 3}
+    stackSize: 1
+    maxNumberOfStacks: -1
+    pinItemInInventory: 0
+    equippable: 0
+    itemPrefab: {fileID: 0}
+    maxPickupDistance: 2.5
+    pickupSound: {fileID: 8300000, guid: 2a590a670334cd64dbe299e5f0c1d0ef, type: 3}
+    pickupMultipleSound: {fileID: 0}
+    useSound: {fileID: 8300000, guid: aad2464c261e4144c919a133dcfcbad3, type: 3}
+  - name: Sword
+    image: {fileID: 21300000, guid: 95e02f581c48a3b40ba9508c99fe2560, type: 3}
+    stackSize: 1
+    maxNumberOfStacks: 1
+    pinItemInInventory: 0
+    equippable: 1
+    itemPrefab: {fileID: 4000013086078436, guid: 406cde164fdfe3849a00d22a9e00e94e, type: 3}
+    maxPickupDistance: 2.5
+    pickupSound: {fileID: 8300000, guid: ca60ba8e01402304ea89eb8da06b5fa5, type: 3}
+    pickupMultipleSound: {fileID: 0}
+    useSound: {fileID: 8300000, guid: 4089142f959137b45a407ee3e9087394, type: 3}
+  - name: Key
+    image: {fileID: 21300000, guid: 0a2b24922f95dc94e9e86f1e64b33b6c, type: 3}
+    stackSize: 1
+    maxNumberOfStacks: 1
+    pinItemInInventory: 0
+    equippable: 1
+    itemPrefab: {fileID: 4000012658485520, guid: 2f2749a0f312ff241b572c63537ccbfe, type: 3}
+    maxPickupDistance: 2.5
+    pickupSound: {fileID: 8300000, guid: bb000282553ef454bba8e4380b8ee7b3, type: 3}
+    pickupMultipleSound: {fileID: 8300000, guid: 7e279ad6677edd24489b06cb4787cc7a, type: 3}
+    useSound: {fileID: 8300000, guid: bb000282553ef454bba8e4380b8ee7b3, type: 3}
+  outlineConfiguration:
+    useOutline: 1
+    outlineColor: {r: 1, g: 1, b: 1, a: 1}
+    outlineWidth: 0.01
+    outlineAdjustSpeed: 3

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: faa2c63091209e546aed14da6345e2c2
+timeCreated: 1479154543
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 91529
+  packageName: Mobile VR Inventory System
+  packageVersion: 0.2
+  assetPath: Assets/Nurface/DemoAssets/Materials/itemRed.mat
+  uploadId: 186835

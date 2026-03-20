@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cd17de5ccd47f5949852c69c71ae88b9
+timeCreated: 1495022036
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 91529
+  packageName: Mobile VR Inventory System
+  packageVersion: 0.2
+  assetPath: Assets/Nurface/DemoAssets/Audio/Audio Sourced From.txt
+  uploadId: 186835

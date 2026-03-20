@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7f669600533a9a1498c75bbdcbec03eb
+timeCreated: 1479154543
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 91529
+  packageName: Mobile VR Inventory System
+  packageVersion: 0.2
+  assetPath: Assets/Nurface/DemoAssets/Materials/itemGold.mat
+  uploadId: 186835

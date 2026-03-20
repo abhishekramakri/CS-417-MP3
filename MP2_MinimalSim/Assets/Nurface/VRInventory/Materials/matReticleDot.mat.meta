@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2ab899f4d454cec4e8d1980f7259bbdb
+timeCreated: 1491993203
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 91529
+  packageName: Mobile VR Inventory System
+  packageVersion: 0.2
+  assetPath: Assets/Nurface/VRInventory/Materials/matReticleDot.mat
+  uploadId: 186835

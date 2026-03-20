@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6b1078175f97a954badba5aa5dc4b5a1
+timeCreated: 1495022626
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 91529
+  packageName: Mobile VR Inventory System
+  packageVersion: 0.2
+  assetPath: Assets/Nurface/VRInventory/Resources/Materials/vrInventoryMatOutlineOnly.mat
+  uploadId: 186835

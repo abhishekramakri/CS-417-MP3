@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1906512c8aba5e34388826bb3f48a48c
+timeCreated: 1493982068
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 91529
+  packageName: Mobile VR Inventory System
+  packageVersion: 0.2
+  assetPath: Assets/Nurface/DemoAssets/Models/Materials/White.mat
+  uploadId: 186835

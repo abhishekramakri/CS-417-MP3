@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2f2749a0f312ff241b572c63537ccbfe
+timeCreated: 1495203473
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 91529
+  packageName: Mobile VR Inventory System
+  packageVersion: 0.2
+  assetPath: Assets/Nurface/VRInventory/Demo/EquippableItems/Key.prefab
+  uploadId: 186835
