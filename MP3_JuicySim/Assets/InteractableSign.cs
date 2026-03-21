@@ -1,5 +1,7 @@
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
+using System.Collections;
 
 /// <summary>
 /// Attach to a sign Canvas near an interactable.
@@ -17,6 +19,23 @@ public class InteractableSign : MonoBehaviour
 
     [Header("Optional:")]
     public CooldownTimer cooldown;
+
+    public void PlayBounce()
+    {
+        if (signText != null)
+            StartCoroutine(BounceText());
+    }
+
+    IEnumerator BounceText()
+    {
+        Vector3 original = signText.transform.localScale;
+        Vector3 big = original * 1.5f;
+        float t = 0f;
+        while (t < 1f) { t += Time.deltaTime / 0.15f; signText.transform.localScale = Vector3.Lerp(original, big, t); yield return null; }
+        t = 0f;
+        while (t < 1f) { t += Time.deltaTime / 0.2f; signText.transform.localScale = Vector3.Lerp(big, original, t); yield return null; }
+        signText.transform.localScale = original;
+    }
 
     void Update()
     {
