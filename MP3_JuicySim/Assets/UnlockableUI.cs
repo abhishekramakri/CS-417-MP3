@@ -29,6 +29,12 @@ public class UnlockableUI : MonoBehaviour
     [Tooltip("Optional: a sign GameObject to hide after unlocking.")]
     public GameObject signObject;
 
+    [Header("Sound")]
+    [Tooltip("AudioSource on or near the gate object for spatialized playback.")]
+    public AudioSource audioSource;
+    [Tooltip("Sound to play when the gate is unlocked.")]
+    public AudioClip unlockSound;
+
     [Header("Feedback")]
     public bool logMessages = true;
 
@@ -64,6 +70,16 @@ public class UnlockableUI : MonoBehaviour
 
         GameManager.instance.sunlight -= unlockCost;
         unlocked = true;
+
+        if (audioSource != null && unlockSound != null)
+        {
+            Debug.Log("[UnlockableUI] Playing unlock sound on: " + audioSource.gameObject.name);
+            audioSource.PlayOneShot(unlockSound);
+        }
+        else
+        {
+            Debug.LogWarning("[UnlockableUI] Sound skipped — audioSource: " + audioSource + " unlockSound: " + unlockSound);
+        }
 
         if (lockedContent != null)
             lockedContent.SetActive(true);

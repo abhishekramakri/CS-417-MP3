@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.XR;
+using System.Collections.Generic;
 
 /// <summary>
 /// Purchasing Power-ups (4pts):
@@ -23,6 +25,13 @@ public class PowerupPurchaser : MonoBehaviour
     [Header("Hide On Purchase")]
     [Tooltip("The sign GameObject to hide after purchasing.")]
     public GameObject signObject;
+
+    [Header("Haptics")]
+    [Tooltip("Duration of the haptic pulse in seconds.")]
+    public float hapticDuration = 0.3f;
+    [Tooltip("Amplitude of the haptic pulse (0–1).")]
+    [Range(0f, 1f)]
+    public float hapticAmplitude = 0.8f;
 
     [Header("Feedback")]
     public bool logMessages = true;
@@ -67,10 +76,19 @@ public class PowerupPurchaser : MonoBehaviour
 
         purchasedCount++;
         if (logMessages) Debug.Log("[Powerup] Power-up #" + purchasedCount + " applied! Rates multiplied by " + rateMultiplier);
+        TriggerHaptics();
         if (cooldown != null) cooldown.StartCooldown();
 
         if (signObject != null) signObject.SetActive(false);
         gameObject.SetActive(false);
+    }
+
+    void TriggerHaptics()
+    {
+        var devices = new List<InputDevice>();
+        InputDevices.GetDevicesWithCharacteristics(InputDeviceCharacteristics.Controller, devices);
+        foreach (var device in devices)
+            device.SendHapticImpulse(0, hapticAmplitude, hapticDuration);
     }
 
     public int PurchasedCount => purchasedCount;
