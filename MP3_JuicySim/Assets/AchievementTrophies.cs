@@ -30,6 +30,10 @@ public class AchievementTrophies : MonoBehaviour
 
     public Trophy[] trophies;
 
+    [Header("Sound")]
+    public AudioSource audioSource;
+    public AudioClip spawnSound;
+
     void Update()
     {
         if (GameManager.instance == null) return;
@@ -43,6 +47,8 @@ public class AchievementTrophies : MonoBehaviour
             if (!trophy.spawned && value >= trophy.threshold)
             {
                 Instantiate(trophy.prefab, trophy.spawnPosition, Quaternion.identity);
+                if (audioSource != null && spawnSound != null)
+                    audioSource.PlayOneShot(spawnSound);
                 trophy.spawned = true;
             }
         }

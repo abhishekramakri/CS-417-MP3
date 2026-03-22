@@ -36,10 +36,12 @@ public class GeneratorDeployer : MonoBehaviour
     public string saveKey = "generator_default";
 
     private int deployedCount = 0;
+    private Vector3 originalScale;
 
     void Start()
     {
         deployedCount = PlayerPrefs.GetInt(saveKey + "_count", 0);
+        originalScale = transform.localScale;
     }
 
     void OnApplicationQuit()
@@ -88,35 +90,17 @@ public class GeneratorDeployer : MonoBehaviour
 
     void PlayDeployAnimation()
     {
-        Transform target = animTarget != null ? animTarget : transform;
-        Debug.Log("[Generator] Playing animation on: " + target.name + " scale: " + target.localScale);
-        StartCoroutine(ScaleBounce(target));
+        StartCoroutine(ScaleBounce());
     }
 
-    IEnumerator ScaleBounce(Transform target)
+    IEnumerator ScaleBounce()
     {
-        Vector3 original = target.localScale;
-        Vector3 big = original * 2f;
-        float duration = 0.4f;
+        Vector3 big = originalScale * 2f;
         float t = 0f;
-
-        while (t < 1f)
-        {
-            t += Time.deltaTime / duration;
-            target.localScale = Vector3.Lerp(original, big, t);
-            Debug.Log("[Anim] t=" + t.ToString("F2") + " scale=" + target.localScale);
-            yield return null;
-        }
-
+        while (t < 1f) { t += Time.deltaTime / 0.4f; transform.localScale = Vector3.Lerp(originalScale, big, t); yield return null; }
         t = 0f;
-        while (t < 1f)
-        {
-            t += Time.deltaTime / 0.3f;
-            target.localScale = Vector3.Lerp(big, original, t);
-            yield return null;
-        }
-
-        target.localScale = original;
+        while (t < 1f) { t += Time.deltaTime / 0.3f; transform.localScale = Vector3.Lerp(big, originalScale, t); yield return null; }
+        transform.localScale = originalScale;
     }
 
     public int DeployedCount => deployedCount;

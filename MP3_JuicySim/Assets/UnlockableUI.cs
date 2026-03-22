@@ -71,14 +71,14 @@ public class UnlockableUI : MonoBehaviour
         GameManager.instance.sunlight -= unlockCost;
         unlocked = true;
 
-        if (audioSource != null && unlockSound != null)
+        if (unlockSound != null)
         {
-            Debug.Log("[UnlockableUI] Playing unlock sound on: " + audioSource.gameObject.name);
-            audioSource.PlayOneShot(unlockSound);
+            Vector3 pos = audioSource != null ? audioSource.transform.position : transform.position;
+            AudioSource.PlayClipAtPoint(unlockSound, pos);
         }
         else
         {
-            Debug.LogWarning("[UnlockableUI] Sound skipped — audioSource: " + audioSource + " unlockSound: " + unlockSound);
+            Debug.LogWarning("[UnlockableUI] Sound skipped — unlockSound not assigned.");
         }
 
         if (lockedContent != null)

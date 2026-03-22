@@ -10,6 +10,9 @@ public class GameManager : MonoBehaviour
     public float sunlightRate;
     public float moneyRate;
 
+    [HideInInspector] public float lastIdleSunlight;
+    [HideInInspector] public float lastIdleMoney;
+
     void Awake()
     {
         instance = this;
@@ -49,8 +52,10 @@ public class GameManager : MonoBehaviour
         {
             var quitTime = System.DateTime.FromBinary(System.Convert.ToInt64(PlayerPrefs.GetString("quitTime")));
             float elapsed = (float)(System.DateTime.UtcNow - quitTime).TotalSeconds;
-            sunlight += sunlightRate * elapsed;
-            money += moneyRate * elapsed;
+            lastIdleSunlight = sunlightRate * elapsed;
+            lastIdleMoney = moneyRate * elapsed;
+            sunlight += lastIdleSunlight;
+            money += lastIdleMoney;
         }
     }
 }

@@ -8,11 +8,14 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/BOKI/LowPolyNature/Scenes/DemoScene.unity
     guid: 8fb6346f292198843aa018d9e2c190d3
+  - enabled: 1
+    path: Assets/mp2scene.unity
+    guid: 8bba2bb3010c627478e73f4f9b6f274e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4cd926c9b7541244a9fce63db4d1aad5, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 436b5adb856f14bbfaf297dadeaa5af9, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 93929aac13b4e4b0188e550dda71f6be, type: 2}
   m_UseUCBPForAssetBundles: 0
